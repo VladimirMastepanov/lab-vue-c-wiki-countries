@@ -1,15 +1,8 @@
 <script setup>
-import { onMounted } from "vue";
 import COUNTRIES from "../../public/countries.json";
 import { ref } from "vue";
 
 const countries = ref(COUNTRIES);
-// const countries = ref([]);
-// onMounted( async() => {
-// const data = await fetch('https://ih-countries-api.herokuapp.com/countries');
-// console.log( data);
-// countries.value = data
-// })
 
 </script>
 
